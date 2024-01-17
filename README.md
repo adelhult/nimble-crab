@@ -4,9 +4,9 @@ look.
 So far, it only contains a build script and a potential API for the
 `TransmuteVm`. I'm also having some linker issues that I should investigate.
 
-# Temporary setup
-
+# Temporary setup 
 ```
+git submodules update --init --recursive
 cd nimble
 go run github.com/piot/deps/src/deps@main fetch -t src/deps 
 mkdir build
